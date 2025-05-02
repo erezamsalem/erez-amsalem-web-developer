@@ -1,7 +1,10 @@
-Click==7.1.2
+click==7.1.2
+dnspython==2.7.0
 Flask==2.0.2
+gunicorn==20.0.4
 itsdangerous==2.0.0
 Jinja2==3.0.1
 MarkupSafe==2.0.0
+pymongo==4.12.1
+setuptools==80.1.0
 Werkzeug==2.0.0
-gunicorn==20.0.4

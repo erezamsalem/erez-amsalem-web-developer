@@ -1,0 +1,5 @@
+https://erez-amsalem-web-developer.scm.azurewebsites.net/api/zip/site/wwwroot/
+
+GOCnVwpWqOEisakH
+
+mongodb+srv://erezamsalem:GOCnVwpWqOEisakH@my-personal-site.htpramq.mongodb.net/?retryWrites=true&w=majority&appName=my-personal-site
