@@ -25,14 +25,21 @@
     <link href="./static/main.3f6952e4.css" rel="stylesheet" />
 
     <style>
-      .card-container-lg { /* Adjust selector if needed */
-        background-color: rgba(255, 255, 255, 0.7) !important; /* White background, 70% opaque. !important might be needed to override */
+      .card-container-lg { /* Style for transparency */
+        background-color: rgba(255, 255, 255, 0.7) !important; 
       }
-      /* You might need to adjust the opacity further (0.0 to 1.0) */
-      /* Example: for more transparency use 0.5 */
-      /* background-color: rgba(255, 255, 255, 0.5) !important; */
+
+      /* --- ADDED CSS FOR UNIFORM IMAGE SIZE --- */
+      .black-image-project-hover img.img-responsive { 
+        width: 100%;          /* Fill the column width */
+        height: 200px;         /* Set a FIXED height - ADJUST THIS VALUE AS NEEDED! */
+        object-fit: cover;    /* Maintain aspect ratio, cover the area, crop if needed */
+        object-position: center; /* Center the image within its frame */
+      }
+      /* --- END ADDED CSS --- */
+
     </style>
-    </head>
+  </head>
 
   <body class="">
     <div id="site-border-left"></div>
@@ -160,7 +167,8 @@
                           class="img-responsive"
                         />
                       </a>
-                      <div class="card-container card-container-lg"> <h4></h4>
+                      <div class="card-container card-container-lg"> 
+                        <h4></h4>
                         <h3>My daughter drawings website</h3>
                         <p>
                           Hosted on www.netlify.com.
@@ -177,7 +185,8 @@
                           class="img-responsive"
                         />
                       </a>
-                      <div class="card-container card-container-lg"> <h4></h4>
+                      <div class="card-container card-container-lg"> 
+                        <h4></h4>
                         <h3>Serverless web app</h3>
                         <p>
                           hosted on AWS Lambda with Mongo Db database. In addition, the site was deployed also in azure with Cosmos Db database - https://erez-amsalem-book-catalog.azurewebsites.net.
@@ -195,7 +204,8 @@
                           class="img-responsive"
                         />
                       </a>
-                      <div class="card-container card-container-lg"> <h4></h4>
+                      <div class="card-container card-container-lg"> 
+                        <h4></h4>
                         <h3>MERN app.</h3>
                         <p>
                           hosted on Heroku and Azure
